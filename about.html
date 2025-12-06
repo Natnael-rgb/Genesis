@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Genesis IT Solutions</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img src="images/main-logo.png" alt="Genesis Logo">
+            </a>
+            <div class="hamburger" id="hamburger">
+                &#9776;
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section">
+        <div class="section-title">
+            <h2>Who We Are</h2>
+            <div class="line"></div>
+        </div>
+        
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images/headphones_hero_1.jpg" alt="Our Team">
+            </div>
+            <div class="about-text">
+                <h3>Driven by Innovation</h3>
+                <p>Genesis started with a simple mission: to provide clarity in a complex digital world. We specialize in web development, graphic design, and system restoration points.</p>
+                <br>
+                <p>Our team comprises dedicated professionals who are passionate about technology and customer success. We believe in building long-term partnerships with our clients.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <!-- Same footer structure for consistency -->
+            <div>
+                <img src="images/genesis-footer-logo.png" alt="Genesis Footer Logo" class="footer-logo">
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2025 Genesis IT Solutions. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('hamburger').addEventListener('click', () => {
+            document.getElementById('nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

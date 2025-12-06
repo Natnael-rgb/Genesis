@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Genesis IT Solutions</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img src="images/main-logo.png" alt="Genesis Logo">
+            </a>
+            <div class="hamburger" id="hamburger">
+                &#9776;
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section">
+        <div class="section-title">
+            <h2>Our Works</h2>
+            <div class="line"></div>
+            <p style="margin-top: 15px; color: #666;">Explore our diverse range of projects across different disciplines.</p>
+        </div>
+
+        <div class="portfolio-grid">
+            <!-- Web Portfolio Item -->
+            <div class="portfolio-item">
+                <img src="images/webportfolios (1).png" alt="Web Project">
+                <div class="portfolio-info">
+                    <h3>Web Development</h3>
+                    <p>Responsive and dynamic websites.</p>
+                    <a href="web-portfolio.html" class="btn" style="margin-top: 10px; padding: 8px 20px; font-size: 0.9rem;">View Collection</a>
+                </div>
+            </div>
+
+            <!-- Graphics Portfolio Item -->
+            <div class="portfolio-item">
+                <img src="images/land-flat-devices-mockup.png" alt="Graphics Project">
+                <div class="portfolio-info">
+                    <h3>Graphics Design</h3>
+                    <p>Branding and visual identity.</p>
+                    <a href="graphics-portfolio.html" class="btn" style="margin-top: 10px; padding: 8px 20px; font-size: 0.9rem;">View Collection</a>
+                </div>
+            </div>
+
+            <!-- System Portfolio Item -->
+            <div class="portfolio-item">
+                <img src="images/omg-flat-devices-mockup (2).png" alt="System Project">
+                <div class="portfolio-info">
+                    <h3>System Solutions</h3>
+                    <p>Data recovery and system architecture.</p>
+                    <a href="system-port.html" class="btn" style="margin-top: 10px; padding: 8px 20px; font-size: 0.9rem;">View Collection</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Genesis IT Solutions. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('hamburger').addEventListener('click', () => {
+            document.getElementById('nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
